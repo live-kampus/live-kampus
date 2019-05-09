@@ -29,7 +29,6 @@
 
 .form-box {
 	width: 380px;
-	height: 507px;
 	padding: 15px;
 	color: #ffffff;
 	/* position: relative;
@@ -68,8 +67,7 @@
 	}
 	
 	footer.login-footer {
-		position: fixed;
-		bottom: 0px;
+
 		background: #404040;
 		width: 100%;
 		padding: 15px;

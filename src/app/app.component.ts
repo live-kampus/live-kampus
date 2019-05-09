@@ -10,20 +10,21 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-  submitted:boolean;
+  submitted: boolean;
 
   constructor(private router: Router) { }
 
-  authenticate(){
+  authenticate() {
     this.submitted = true;
-    console.log("form");
+    console.log(' form ');
     // alert("form submitted");
-    
-    this.router.navigate(["user"]);
+    this.router.navigate(['user']);
+    window.scrollTo(100, 100);
+
   }
 
-  abc(){
-    this.submitted=true; 
+  abc() {
+    this.submitted = true;
   }
 
 

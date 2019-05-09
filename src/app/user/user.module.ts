@@ -10,6 +10,7 @@ import { UserEventlistComponent } from './event/user-event-list.component';
 import { NotificationComponent } from './notification/notification.component';
 import { ChatComponent } from './chat/chat.component';
 import { RoomSpaceComponent } from './Room-space/room-space.component';
+import { EditProfileComponent } from './profile/edit-profile.component';
 
 
 
@@ -26,7 +27,8 @@ import { RoomSpaceComponent } from './Room-space/room-space.component';
         UserEventlistComponent,
         NotificationComponent,
         ChatComponent,
-        RoomSpaceComponent
+        RoomSpaceComponent,
+        EditProfileComponent
     ],
     imports: [
         BrowserModule,
